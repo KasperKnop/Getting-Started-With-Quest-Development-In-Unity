@@ -19,18 +19,18 @@
 
 ## Developer Tools \[OPTIONAL\]
 
-##### Quest as a PC VR headset (Oculus Link)
+###### Quest as a PC VR headset (Oculus Link)
 1. Install the [Oculus Desktop Application](https://www.oculus.com/download_app/?id=1582076955407037).
 2. Make sure your Quest is running the latest software update (settings > about).
 3. Open the Oculus Desktop Application
 4. Connect your Quest to the PC and follow the instructions.
 
-##### Additional Wireless PC VR (Oculus Air Link)
+###### Additional Wireless PC VR (Oculus Air Link)
 1. Make sure your Quest and your PC is on the same network.
 2. Go to Settings > Beta and enable Air Link in the Oculus Desktop Application (N.B.: Automatically turns off if it isn't in use for 24 hours).
 3. Enable Oculus Air Link in the Quick Settings of the headset.
 
-##### Additional Tools
+###### Additional Tools
 1. Install [Oculus Developer Hub](https://developer.oculus.com/documentation/unity/ts-odh/).
 2. Connet your Quest to the PC.
 3. Open Oculus Developer Hub, click Set Up New Device and follow the instructions.
@@ -45,7 +45,7 @@
 6. Go to **Edit** > **Project Settings** > **XR Plugin Management**
 	1.  Click **Install XR Plugin Management**. Then enable the Oculus Plugin under both the PC tab and the Android tab.
 
-##### XR Interaction Toolkit \[RECOMMENDED\]
+###### XR Interaction Toolkit \[RECOMMENDED\]
 If you want to use XR Interaction Toolkit for cross platform VR interaction patterns (grab, teleport, etc):
 1. "Enable Preview Packages" in **Edit** > **Project Settings** > **Package Manager**.
 2. Go to **Window** > **Package Manager**
@@ -64,5 +64,5 @@ If you want to use XR Interaction Toolkit for cross platform VR interaction patt
 9. Run the project in the editor with Quest connected with either Oculus Link or Oculus Air Link, or build directly to the Quest to to verify that everything is set up correctly. You should be able to move your body and controllers around freely, with the controllers rendering red lines from their origin.
 10. You are now ready to begin your VR journey! To get started, take a look at [this tutorial](https://www.youtube.com/watch?v=furfe8E7SOA&ab_channel=JustinPBarnett-VRGameDev) to learn about Interactables in the XR Interaction Toolkit (Notice that he uses the experimental OpenXR plugin instead of the Oculus plugin. You can safely ignore that part of the video).
 
-#####  Oculus Integration \[OPTIONAL\]
+######  Oculus Integration \[OPTIONAL\]
 If you want to use specific features from the Oculus platform (handtracking, avatars, social, passthrough, etc), or you just don't want to use XR Interaction Toolkit, you can use the [Oculus Integration](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022). It comes with prefabs for e.g. native looking controllers, as well as sample scenes for you to explore. You can use the XR Interaction Toolkit and Oculus Integrations in the same project, if you wish.
